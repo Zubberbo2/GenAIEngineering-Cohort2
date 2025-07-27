@@ -327,7 +327,7 @@ def search(
             'ComplexityLevel',
             'MainIngredient',
             'score',
-            'rerank_score'
+            'rerank_score'S
         ]
     ]
 
@@ -383,7 +383,7 @@ class GenAIBot(commands.Cog):
     @nextcord.slash_command(
         guild_ids=[config['guild_id']],
         description="Execute Command")
-    async def raginator(
+    async def zubberbo(
             self,
             interaction: nextcord.Interaction,
             user_message: str
