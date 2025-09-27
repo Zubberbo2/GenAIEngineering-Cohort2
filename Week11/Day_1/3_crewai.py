@@ -26,7 +26,7 @@ def calculate_compound_interest_func(principal: float, rate: float, time: int, n
         time: Time period in years
         n: Number of times interest compounds per year
     """
-    amount = principal * (1 + rate/n) ** (n * time)
+    amount = principal * (1 + rate/n) ** (n * time) 
     interest = amount - principal
 
     return f"""
